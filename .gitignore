@@ -1,0 +1,52 @@
+# Ignore Visual Studio specific files
+.vs/
+*.suo
+*.user
+*.sln.docstates
+
+# Ignore build outputs
+BackendYourList/bin/
+BackendYourList/obj/
+
+# Ignore Rider IDE files
+.idea/
+*.iml
+
+# Ignore user-specific files
+*.userprefs
+*.csproj.user
+*.pidb
+*.svd
+
+# Ignore logs and debug files
+*.log
+*.tlog
+*.pdb
+*.ilk
+
+# Ignore temporary files
+*.tmp
+*.cache
+*.diff
+*.orig
+
+# Ignore NuGet packages
+packages/
+*.nupkg
+
+# Ignore compiled DLLs and executables
+*.dll
+*.exe
+*.so
+*.dylib
+*.app
+*.ipa
+
+# Ignore coverage reports
+TestResults/
+.coverage
+.coveragexml
+
+# Ignore generated files
+GeneratedFiles/
+*.generated.cs
